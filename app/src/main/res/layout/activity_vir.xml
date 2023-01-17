@@ -48,6 +48,14 @@
         android:layout_weight="1"
         android:background="#01ff00ff">
 
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="vir/lottie/data.json"
+            app:lottie_imageAssetsFolder="vir/lottie/images"
+            app:lottie_loop="false" />
 
     </FrameLayout>
 
