@@ -13,6 +13,20 @@
         android:theme="@style/Theme.PagLottie"
         tools:targetApi="31">
         <activity
+            android:name=".VirActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SavActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".BigActivity"
             android:exported="false">
             <meta-data
