@@ -8,9 +8,26 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/btnMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新开一页" />
+    <Button
         android:id="@+id/btnBig"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="大文件对比" />
+
+    <Button
+        android:id="@+id/btnSav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="省电" />
+
+    <Button
+        android:id="@+id/btnVir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="杀毒对比" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
