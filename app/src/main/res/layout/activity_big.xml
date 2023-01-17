@@ -39,12 +39,6 @@
         android:layout_weight="1"
         android:background="#08ff00ff">
 
-        <org.libpag.PAGView
-            android:id="@+id/pagView"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:background="@color/teal_200" />
     </FrameLayout>
 
     <FrameLayout
@@ -54,10 +48,6 @@
         android:layout_weight="1"
         android:background="#01ff00ff">
 
-<!--        <View-->
-<!--            android:id="@+id/lottie"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"/>-->
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/lottie"
             android:layout_width="match_parent"
